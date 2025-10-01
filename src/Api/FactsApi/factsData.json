@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "title": "World",
+    "capital": "No Capital",
+    "population": "Null",
+    "fact": "There are 195 countries in the world today, including 193 United Nations member states and 2 observer states."
+  },
+  {
+    "id": "2",
+    "title": "Nepal",
+    "capital": "Kathmandu",
+    "population": "29,609,623",
+    "fact": "Nepal is home to Mount Everest, the tallest mountain in the world, standing at 8,848 meters."
+  },
+  {
+    "id": "3",
+    "title": "Egypt",
+    "capital": "Cairo",
+    "population": "104,258,327",
+    "fact": "The Pyramids of Giza are one of the Seven Wonders of the Ancient World."
+  },
+  {
+    "id": "4",
+    "title": "India",
+    "capital": "New Delhi",
+    "population": "1,417,173,173",
+    "fact": "India is the world’s largest democracy and the second most populous country."
+  },
+  {
+    "id": "5",
+    "title": "China",
+    "capital": "Beijing",
+    "population": "1,425,887,337",
+    "fact": "China is the world’s most populous country and home to the Great Wall of China."
+  },
+  {
+    "id": "6",
+    "title": "Brazil",
+    "capital": "Brasília",
+    "population": "215,353,593",
+    "fact": "Brazil is the largest country in South America and home to the Amazon Rainforest."
+  },
+  {
+    "id": "7",
+    "title": "Australia",
+    "capital": "Canberra",
+    "population": "26,177,413",
+    "fact": "Australia is the only country that is also a continent."
+  },
+  {
+    "id": "8",
+    "title": "Japan",
+    "capital": "Tokyo",
+    "population": "125,125,000",
+    "fact": "Japan is known as the 'Land of the Rising Sun' and has the world’s third-largest economy."
+  },
+  {
+    "id": "9",
+    "title": "Canada",
+    "capital": "Ottawa",
+    "population": "39,293,000",
+    "fact": "Canada is the second-largest country in the world by area."
+  },
+  {
+    "id": "10",
+    "title": "France",
+    "capital": "Paris",
+    "population": "65,633,000",
+    "fact": "France is the most visited country in the world."
+  },
+  {
+    "id": "11",
+    "title": "South Africa",
+    "capital": "Pretoria / Cape Town / Bloemfontein",
+    "population": "60,604,992",
+    "fact": "South Africa has three capital cities and is known as the 'Rainbow Nation'."
+  },
+  {
+    "id": "12",
+    "title": "Mexico",
+    "capital": "Mexico City",
+    "population": "126,705,138",
+    "fact": "Mexico is home to ancient civilizations like the Aztecs and Mayans."
+  }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Company",
+        "links": [
+            { "name": "About Us", "url": "/about", "icon": "FaInfoCircle" },
+            { "name": "Careers", "url": "/careers", "icon": "FaBriefcase" },
+            { "name": "Blog", "url": "/blog", "icon": "FaBlog" }
+        ]
+    },
+    {
+        "title": "Support",
+        "links": [
+            { "name": "Contact", "url": "/contact", "icon": "FaPhone" },
+            { "name": "FAQ", "url": "/faq", "icon": "FaQuestionCircle" },
+            { "name": "Help Center", "url": "/help", "icon": "FaLifeRing" }
+        ]
+    },
+    {
+        "title": "Legal",
+        "links": [
+            { "name": "Privacy Policy", "url": "/privacy", "icon": "FaShieldAlt" },
+            { "name": "Terms of Service", "url": "/terms", "icon": "FaFileContract" }
+        ]
+    }
+]
