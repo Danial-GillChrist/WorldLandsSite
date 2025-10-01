@@ -27,8 +27,8 @@ const Header = () => {
 
           {/* Menu */}
           <ul
-            className={`flex flex-col md:flex-row gap-6 absolute md:static top-5 left-0 w-full md:w-auto bg-gray-900 md:bg-transparent p-1 md:p-0 transition-all duration-300 ${
-              show ? "block" : "hidden md:flex"
+            className={`flex flex-col md:flex-row gap-6 absolute md:static top-16 left-0 w-full md:w-auto bg-gray-900 md:bg-transparent p-1 md:p-0 transition-all duration-300 ${
+              show ? "block p-4" : "hidden md:flex"
             }`}
           >
             <li>
