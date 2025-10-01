@@ -9,7 +9,7 @@ const Country = () => {
   const [allCountries, setAllCountries]: any = useState([]); // master copy
   const [isPending, startTransition] = useTransition();
   const [loading, setLoading] = useState(true); // ✅ track initial load
-  const [search, setSearch] = useState(""); 
+  const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("all");
   const [clearSer, setClear] = useState(false);
 
@@ -37,17 +37,15 @@ const Country = () => {
   // ✅ Dynamic message
   const getNoResultMessage = () => {
     if (search && filter !== "all") {
-      return `No countries found for "${search}" in ${
-        filter[0].toUpperCase() + filter.slice(1)
-      }.`;
+      return `No countries found for "${search}" in ${filter[0].toUpperCase() + filter.slice(1)
+        }.`;
     }
     if (search) {
       return `No countries found for "${search}".`;
     }
     if (filter !== "all") {
-      return `No countries found in ${
-        filter[0].toUpperCase() + filter.slice(1)
-      }.`;
+      return `No countries found in ${filter[0].toUpperCase() + filter.slice(1)
+        }.`;
     }
     return "No countries found.";
   };
@@ -70,9 +68,9 @@ const Country = () => {
 
       {/* ✅ Only render content when data is ready */}
       {!loading && (
-        <>
-         <section>
-            <div className="container px-4">
+        <div className="bg-black">
+          <section>
+            <div className="container px-4 pt-5">
               <SearchFilter
                 search={search}
                 setSearch={setSearch}
@@ -86,10 +84,10 @@ const Country = () => {
               />
 
             </div>
-         </section>
-         <section className="countrylist">
+          </section>
+          <section className="countrylist">
 
-              <div className="container">
+            <div className="container">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
                 {filteredCountries.length > 0 ? (
                   filteredCountries.map((curCountry: any, index: number) => (
@@ -113,9 +111,9 @@ const Country = () => {
                   </div>
                 )}
               </div>
-              </div>
-         </section>
-        </>
+            </div>
+          </section>
+        </div>
       )}
     </>
   );

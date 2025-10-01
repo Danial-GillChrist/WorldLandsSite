@@ -37,7 +37,7 @@ const SearchFilter = ({ search, setSearch, filter, setFilter, country, setCountr
   }
   
   return (
-    <section className="w-full bg-gray-100 py-4 px-6 rounded-lg shadow-md my-5">
+    <section className="w-full bg-gray-100 py-4 px-6 rounded-lg shadow-md">
       <div className="flex justify-between flex-col md:flex-row items-center gap-4">
         {/* Search Input */}
         <div className="relative w-full md:w-1/3">
