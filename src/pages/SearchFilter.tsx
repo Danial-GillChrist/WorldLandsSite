@@ -37,7 +37,7 @@ const SearchFilter = ({ search, setSearch, filter, setFilter, country, setCountr
   }
   
   return (
-    <section className="w-full bg-gray-100 py-4 px-6 rounded-lg shadow-md">
+    <section className="w-full bg-gray-900 py-4 px-6 rounded-lg shadow-md">
       <div className="flex justify-between flex-col md:flex-row items-center gap-4">
         {/* Search Input */}
         <div className="relative w-full md:w-1/3">
@@ -46,7 +46,7 @@ const SearchFilter = ({ search, setSearch, filter, setFilter, country, setCountr
             placeholder="Search..."
             value={search}
             onChange={searchChange}
-            className="w-full px-4 py-2 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            className="w-full px-4 py-2 rounded-lg border border-gray-700 text-white shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
           />
            {clearSer && (
               <button
@@ -63,7 +63,7 @@ const SearchFilter = ({ search, setSearch, filter, setFilter, country, setCountr
             <select
               value={filter}
               onChange={(e) => setFilter(e.target.value)}
-              className="px-4 py-2 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="px-4 py-2 rounded-lg border bg-black text-white border-gray-700 shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
             >
             <option value="all">All</option>
              {

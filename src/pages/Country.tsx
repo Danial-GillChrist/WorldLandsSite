@@ -61,8 +61,8 @@ const Country = () => {
     <>
       {/* ✅ Show loader while fetching */}
       {(isPending || loading) && (
-        <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
-          <Loader />
+        <div className="fixed inset-0 flex items-center justify-center text-white bg-black z-50">
+          <Loader  />
         </div>
       )}
 
@@ -96,7 +96,7 @@ const Country = () => {
                 ) : (
                   // Tailwind modal
                   <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-                    <div className="bg-white rounded-2xl shadow-xl p-6 w-[90%] max-w-md text-center">
+                    <div className="bg-gray-900 rounded-2xl shadow-xl p-6 w-[90%] max-w-md text-center">
                       <h2 className="text-xl font-semibold text-red-600 mb-3">
                         No Results Found
                       </h2>

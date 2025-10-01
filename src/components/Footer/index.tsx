@@ -20,12 +20,13 @@ const Footer = () => {
                             <h3 className="font-bold text-white mb-4">{section.title}</h3>
                             <ul>
                                 {section.links.map((link, idx) => {
-                                    const Icon = FaIcons[link.icon]; // dynamically get icon
+                                    const {icon, url, name } = link
+                                    const Icon = FaIcons[icon]; // dynamically get icon
                                     return (
                                         <li key={idx} className="mb-2 flex items-center gap-2">
                                             {Icon && <Icon className="text-gray-400" />}
-                                            <a href={link.url} className="hover:text-gray-400 text-white">
-                                                {link.name}
+                                            <a href={url} className="hover:text-gray-400 text-white">
+                                                {name}
                                             </a>
                                         </li>
                                     );

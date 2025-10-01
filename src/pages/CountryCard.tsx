@@ -4,7 +4,7 @@ const CountryCard = ({ countryitem }) => {
   const { flags, name, population, region, capital } = countryitem;
 
   return (
-    <div className="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-xl transition-all">
+    <div className="bg-gray-900 shadow-md rounded-xl overflow-hidden hover:shadow-xl transition-all">
       {/* Flag */}
       <img
         src={flags.svg}
@@ -14,18 +14,18 @@ const CountryCard = ({ countryitem }) => {
 
       {/* Content */}
       <div className="p-4">
-        <h2 className="text-lg font-bold text-gray-800 mb-2">
+        <h2 className="text-lg font-bold text-white mb-2">
           {name.common}
         </h2>
 
-        <p className="text-sm text-gray-600 mb-1">
+        <p className="text-sm text-white mb-1">
           <span className="font-semibold">Region:</span> {region}
         </p>
-        <p className="text-sm text-gray-600 mb-1">
+        <p className="text-sm text-white mb-1">
           <span className="font-semibold">Population:</span>{" "}
           {population.toLocaleString()}
         </p>
-        <p className="text-sm text-gray-600 mb-3">
+        <p className="text-sm text-white mb-3">
           <span className="font-semibold">Capital:</span>{" "}
           {capital?.[0] || "N/A"}
         </p>
